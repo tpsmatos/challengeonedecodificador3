@@ -1,0 +1,166 @@
+
+    body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        line-height: 150%;
+    }
+     
+    body {
+        background: linear-gradient(45deg, #da81e1, #9cccf7, transparent);
+    }
+     
+    header {
+       margin-left: 40px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 48px;
+        left: 50x;
+        top: 40px;
+    }
+
+    .titulo {
+        position: absolute;
+        height: 50px;
+        left: 190px;
+        top: 30px;
+        margin: 10px;
+        color: #0a3871;
+        font-size: 22px;
+    }
+     
+    main {
+        display: flex;
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+     
+    .input-texto {
+        background: linear-gradient(50deg, #da81e1, #9cccf7, transparent);
+        margin-top: 100px;
+        height: 453px;
+        width: 706px;
+        font-size: 20px;
+        color: #070764;
+        border: none;
+
+    }
+
+    .input-texto:focus {
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+    }
+     
+    .mensagem {
+        position: absolute;
+        width: 239px;
+        height: 516px;
+        margin-top: 20px;
+        margin-left: 101px;
+        font-size: 18px;
+        color: #070764;
+        background-color: #d6eafb;;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-style: none;
+        border-radius: 20px;
+    }
+
+    .mensagem:focus {
+        border: 0 none;
+        outline: 0;
+    }
+    
+    .cadeado{
+        width: 40px;
+        min-width: 210px;
+        height: 50px;
+        background: #d6eafb;
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px;
+        margin-left: 120px;
+        margin-top: 100px;
+    }
+     
+    .botoes {
+       display: flex;
+       flex-direction: row;
+       margin-top: 20px;
+       
+    }
+
+    .copiar {
+        position: absolute;
+        width: 200px;
+        height: 67px;
+        left: 925px;
+        top: 600px;
+        border-style: none;
+        border-radius: 24px;
+        background:#DCEBF8;
+        color: #810D9F;
+    }
+
+    .copiar:hover {
+        transform:scale(1.1);
+    }
+     
+    .encriptar {
+        background: #6D1B82;
+        color: #D9EBFC;
+        border-style: none;
+        width: 328px;
+        height: 67px;
+        gap: 8px;
+        border-radius: 24px;
+        padding: 24px;
+        
+    }
+
+    .encriptar:hover {
+        transform:scale(1.1);
+    }
+    
+    .desencriptar {
+        background: #D7E9FF;
+        color: #810D9F;
+        border-style: none;
+        margin-left: 30px;
+        border-radius: 25px;
+        width: 328px;
+        height: 67px;
+        gap: 8px;
+        border-radius: 24px;
+        padding: 24px;
+    }
+
+    .desencriptar:hover {
+        transform:scale(1.1);
+    }
+
+    h2 {
+        font-size: 15px;
+        text-align: center;
+        color: #240c8a;
+
+    }
+
+    span {
+        font-size: 10px;
+        text-align: center;
+        color: #240c8a;
+    }
+
+    .rodape {
+        font-size: 9px;
+        margin-left: 500px;
+        color: #0a3871;
+    }
